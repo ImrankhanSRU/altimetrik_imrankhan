@@ -1,0 +1,168 @@
+{
+  "logos": [
+    {
+      "id": 1,
+      "model": "Maruti Suzuki",
+      "logo_url": "https://1000logos.net/wp-content/uploads/2022/08/Maruti-Suzuki-Logo-2000.png"
+    },
+    {
+      "id": 2,
+      "model": "Hyundai",
+      "logo_url": "https://www.carlogos.org/car-logos/hyundai-logo-2011-download.png"
+    },
+    {
+      "id": 3,
+      "model": "Honda",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Honda_Canada.webp"
+    },
+    {
+      "id": 4,
+      "model": "BMW",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png"
+    },
+    {
+      "id": 5,
+      "model": "Tata",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Tata_logo.svg/2231px-Tata_logo.svg.png"
+    },
+    {
+      "id": 6,
+      "model": "Mahindra",
+      "logo_url": "https://i.pinimg.com/originals/4e/3f/9f/4e3f9fa38e241a7b15ea727240cb953d.png"
+    },
+    {
+      "id": 7,
+      "model": "Ford",
+      "logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ford_logo_flat.svg/2560px-Ford_logo_flat.svg.png"
+    },
+    {
+      "id": 8,
+      "model": "Renault",
+      "logo_url": "https://i.pinimg.com/736x/77/4e/e1/774ee176433f93b247e71a926a9dac15.jpg"
+    },
+    {
+      "id": 9,
+      "model": "Toyota",
+      "logo_url": "https://global.toyota/pages/global_toyota/mobility/toyota-brand/emblem_ogp_001.png"
+    },
+    {
+      "id": 10,
+      "model": "Volkswagen",
+      "logo_url": "https://logohistory.net/wp-content/uploads/2023/01/Volkswagen-Logo.png"
+    }
+  ],
+  "formFields": [
+    {
+      "label": "Model",
+      "type": "text",
+      "key": "brand",
+      "id": 1,
+      "disabled": true,
+      "required": true
+    },
+    {
+      "label": "Location",
+      "type": "text",
+      "key": "location",
+      "id": 2,
+      "required": true
+    },
+    {
+      "label": "Price(In lacs)",
+      "type": "text",
+      "key": "price",
+      "id": 3,
+      "required": true
+    },
+    {
+      "label": "No of Owners",
+      "type": "number",
+      "key": "owners_count",
+      "id": 4,
+      "required": true
+    },
+    {
+      "label": "Year of Manufauture",
+      "type": "number",
+      "key": "manufacture_year",
+      "id": 5,
+      "required": true
+    },
+    {
+      "label": "Transmission",
+      "type": "text",
+      "key": "transmission",
+      "id": 6,
+      "required": true
+    },
+    {
+      "label": "Insurance upto",
+      "type": "date",
+      "key": "ins_date",
+      "id": 7,
+      "required": true
+    },
+    {
+      "label": "External fitments",
+      "type": "text",
+      "key": "ext_fit",
+      "id": 8,
+      "required": true
+    },
+    {
+      "label": "Kms",
+      "type": "number",
+      "key": "kms",
+      "id": 9,
+      "required": true
+    },
+    {
+      "label": "Photo",
+      "type": "file",
+      "key": "image_url",
+      "id": 10,
+      "required": false
+    }
+  ],
+  "links": [
+    {
+      "name": "Logo",
+      "path": "/"
+    },
+    {
+      "name": "Home",
+      "path": "/home"
+    }
+  ],
+  "filters": [
+    {
+      "label": "Location",
+      "type": "select",
+      "key": "location"
+    },
+    {
+      "label": "Brand",
+      "type": "checkbox",
+      "key": "brand"
+    },
+    {
+      "label": "Owners",
+      "type": "radio",
+      "key": "owners_count",
+      "options": [{"label": "1st Owner", "value": 1}, {"label": "2nd Owner", "value": 2}, {"label": "3rd Owner", "value": 3}]
+    },
+    {
+      "label": "Budget",
+      "type": "radio",
+      "key": "price",
+      "options": [{"label": "Less than 2L", "min": 0, "max": 2}, {"label": "2L - 4L", "min": 2, "max": 4}, {"label": "4L - 6L", "min": 4, "max": 6}, {"label": "More than 6L", "min": 6}],
+      "filterType": "min_max"
+    },
+    {
+      "label": "Transmission",
+      "type": "radio",
+      "key": "transmission",
+      "options": [{"label": "AutoMatic", "value": "AutoMatic"}, {"label": "Manual", "value": "Manual"}]
+    }
+  ]
+}
