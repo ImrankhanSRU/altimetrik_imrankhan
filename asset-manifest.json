@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/altimetrik_imrankhan/static/css/main.f30f5ef5.css",
+    "main.js": "/altimetrik_imrankhan/static/js/main.5175e2e8.js",
+    "static/js/453.cba9679a.chunk.js": "/altimetrik_imrankhan/static/js/453.cba9679a.chunk.js",
+    "index.html": "/altimetrik_imrankhan/index.html",
+    "main.f30f5ef5.css.map": "/altimetrik_imrankhan/static/css/main.f30f5ef5.css.map",
+    "main.5175e2e8.js.map": "/altimetrik_imrankhan/static/js/main.5175e2e8.js.map",
+    "453.cba9679a.chunk.js.map": "/altimetrik_imrankhan/static/js/453.cba9679a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f30f5ef5.css",
+    "static/js/main.5175e2e8.js"
+  ]
+}
