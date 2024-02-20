@@ -1,0 +1,8 @@
+.logos_container {
+    background: lightgray;
+    padding: 1rem;
+    gap: 1rem;
+    margin: auto;
+    /* margin-top: 10vh; */
+    /* height: 30vh; */
+}
