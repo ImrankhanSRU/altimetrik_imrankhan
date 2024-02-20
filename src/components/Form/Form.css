@@ -1,0 +1,11 @@
+.field {
+    padding: 0.5rem;
+    flex: 1;
+    width: 150px;
+}
+
+.field label {
+    display: block;
+    /* width: 200px; */
+}
+
